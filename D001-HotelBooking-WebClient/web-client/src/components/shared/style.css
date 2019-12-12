@@ -1,0 +1,87 @@
+.header-image {
+  max-width: 100%;
+}
+.header-image-buttons {
+  position: relative;
+}
+.toolbar {
+  width: 100%;
+}
+.toolbar-navigation {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.toolbar-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.toolbar-item {
+  padding: 7px 10px;
+}
+#links {
+  position: absolute;
+  width: 250px;
+  top: 15%;
+  right: 0;
+}
+.link {
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 8px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 3px;
+}
+.link:hover {
+  background-color: #777;
+  color: white;
+}
+.profile-icon {
+  position: absolute;
+  width: 250px;
+  height: 80px;
+  top: 8%;
+  right: 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+.user-welcome {
+  font-weight: bolder;
+}
+.profileIconImage {
+  width: 36px;
+  height: 36px;
+}
+
+.profileIconImage:hover {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 770px) {
+  .toolbar-items,
+  #links,
+  .user-welcome,
+  .logout-button {
+    display: none;
+  }
+  .profile-icon {
+    background: transparent;
+    width: 60px;
+    top: 10%;
+  }
+  .profile-icon button {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+@media (max-width: 320px) {
+  .profileIconImage {
+    width: 30px;
+    height: 30px;
+  }
+}

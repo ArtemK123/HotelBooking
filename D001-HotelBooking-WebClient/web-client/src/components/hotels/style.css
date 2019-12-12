@@ -1,0 +1,70 @@
+.hotel:hover {
+  border: solid 2px rgb(5, 114, 114);
+  border-radius: 5%;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.hotel {
+  padding: 3px;
+  border: solid 1px rgb(8, 156, 156);
+  border-radius: 5%;
+}
+.container-room {
+  margin-top: 10px;
+}
+
+img {
+  margin-top: 5px;
+}
+
+.hotel-image {
+  width: 100%;
+}
+
+.search-form {
+  max-width: 370px;
+  min-width: 288px;
+}
+.hotels-box {
+  min-width: 300px;
+}
+.hotel-link {
+  text-decoration: none;
+  color: rgb(8, 156, 156);
+  font-style: italic;
+  font-size: 105%;
+  font-weight: 600;
+}
+.hotel-link:hover {
+  text-decoration: none;
+  color: rgb(5, 114, 114);
+}
+
+.disabled-button {
+  background-color: lightgray;
+}
+
+@media (min-width: 1200px) {
+  .hotel {
+    width: 28%;
+  }
+}
+@media (max-width: 1200px) {
+  .hotel {
+    width: 40%;
+  }
+}
+@media (max-width: 1000px) {
+  .hotel {
+    width: 100%;
+  }
+}
+@media (max-width: 770px) {
+  .hotel {
+    width: 100%;
+  }
+  .search-form {
+    width: 100%;
+    max-width: 500px;
+  }
+}

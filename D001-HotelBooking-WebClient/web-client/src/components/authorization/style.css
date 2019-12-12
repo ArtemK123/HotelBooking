@@ -1,0 +1,9 @@
+.loginform {
+  min-width: 200px;
+  background-color: white;
+}
+
+.btn-block {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}

@@ -1,0 +1,50 @@
+.toggle-button {
+  height: 30px;
+  width: 40px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin: 4px 8px;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+.toggle-button:focus {
+  outline: none;
+}
+.toggle-button-line {
+  width: 25px;
+  height: 3px;
+  background: #10abb0;
+}
+.side-drawer {
+  height: 100%;
+  background: #f5f7f7;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  max-width: 300px;
+  min-width: 130px;
+  z-index: 200;
+}
+.side-drawer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.side-drawer li {
+  margin: 10px 0;
+}
+
+@media (min-width: 771px) {
+  .side-drawer,
+  .toggle-button {
+    display: none;
+  }
+}

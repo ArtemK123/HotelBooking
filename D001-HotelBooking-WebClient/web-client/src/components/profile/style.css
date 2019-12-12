@@ -1,0 +1,56 @@
+.personal-info-form {
+  min-width: 225px;
+}
+.credit-cards ul {
+  list-style-type: none;
+  padding: 0;
+}
+.credit-cards li {
+  margin: 5px 0;
+  position: relative;
+}
+
+.adding-card-block,
+.credit-cards {
+  padding: 5px 10px;
+  margin: 1% 0;
+  border: solid 1px rgb(216, 214, 214);
+}
+.profile-image {
+  width: 60%;
+  margin: 0 20%;
+}
+.personal-info {
+  min-width: 200px;
+  flex-basis: 0;
+  flex-grow: 14;
+  padding: 0 15px;
+}
+.photo-and-cards {
+  min-width: 220px;
+  flex-basis: 0;
+  flex-grow: 10;
+  padding: 0 15px;
+}
+.submit-button-block {
+  margin: 15px;
+}
+.deletion-button {
+  color: red;
+  padding: 3px;
+  cursor: pointer;
+}
+.card-number {
+  border: solid 1px rgb(216, 214, 214);
+  border-radius: 4%;
+  padding: 5px 12px;
+  width: 92%;
+  display: inline-block;
+}
+.deletion-button:hover {
+  transform: scale(1.4);
+}
+
+.edit-photo-button {
+  width: 100px;
+}

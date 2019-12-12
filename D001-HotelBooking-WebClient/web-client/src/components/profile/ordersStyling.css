@@ -1,0 +1,28 @@
+.hotel-name a:link {
+  color: rgb(7, 100, 100);
+  font-style: italic;
+  font-size: 150%;
+}
+
+.hotel-name a:visited {
+  color: rgb(2, 44, 44);
+  font-style: italic;
+  font-size: 150%;
+}
+.hotel-name a:hover {
+  color: rgb(7, 117, 117);
+  text-decoration: none;
+  font-style: italic;
+  font-size: 160%;
+}
+.hotel-name a:active {
+  color: rgb(5, 77, 77);
+  font-style: italic;
+  font-size: 150%;
+}
+
+.price {
+  font-style: italic;
+  color: rgb(5, 77, 77);
+  font-size: 170%;
+}
